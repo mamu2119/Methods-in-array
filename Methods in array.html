@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Array Methods</title>
+    </head>
+    <body>
+        <h2>JavaScript Array Methods</h2>
+        <h2>join() and pop()</h2>
+        <p id="myjoin"></p>
+        <p id="myfirstpop"></p>
+        <p id="mysecondpop"></p>
+        <script>
+            var cars = ["Tata Altroz","Tata Curvv","Range Rover","Rolls Royce"];
+            document.getElementById("myjoin").innerHTML = cars.join("*");
+            document.getElementById("myfirstpop").innerHTML = cars;cars.pop();
+            document.getElementById("mysecondpop").innerHTML = cars;
+        </script>
+    </body>
+</html>
